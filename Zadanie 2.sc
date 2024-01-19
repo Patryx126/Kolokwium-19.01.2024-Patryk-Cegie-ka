@@ -9,8 +9,8 @@ plot(x, f1, 'r', 'LineWidth', 2); // Wykres f1 - kolor czerwony
 hold on
 plot(x, f2, 'b', 'LineWidth', 2); // Wykres f2 - kolor niebieski
 //
-title('Wykres funkcji f = ln(2x) i f = 2x - 3x + 1');
-legend('f = ln(2x)', 'f = 2x - 3x + 1');
+title('Wykres funkcji f = ln(2x) i f = 2x^2 - 3x + 1');
+legend('f = ln(2x)', 'f = 2x^2 - 3x + 1');
 //
 grid on
 hold off
